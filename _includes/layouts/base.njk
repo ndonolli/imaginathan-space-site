@@ -7,7 +7,7 @@
 
 		<header>
 			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
+				<a href="{{ '/' | url }}">{{ metadata.title }}<span class="title-suffix">{{ metadata.suffix }}</span></a>
 			</em>
 			{% include "components/nav.njk" %}
 		</header>

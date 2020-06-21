@@ -2,6 +2,7 @@
 	--primary: #EFCB68;
 	--secondary: #000411;
 	--background: #160C28;
+	--light: #E1EFE6;
 }
 
 *, *:before, *:after {
@@ -27,7 +28,11 @@ main {
 }
 
 p, h1, h2, h3, h4, h5, small {
-	color: #E1EFE6
+	color: var(--light);
+}
+
+.title-suffix {
+	color: var(--light);
 }
 
 p,
