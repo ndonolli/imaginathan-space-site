@@ -33,6 +33,10 @@ main {
 	width: 100vw;
 }
 
+main img {
+	width: 100%;
+}
+
 p, h1, h2, h3, h4, h5, small, li {
 	color: var(--light);
 }
