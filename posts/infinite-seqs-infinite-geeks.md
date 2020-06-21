@@ -20,7 +20,10 @@ Notes:
 ### Example:
 ```
 Input:
-  rows = 3, cols = 6, sentence = [“a”, “bcd”, “e”]
+rows = 3,
+cols = 6, 
+sentence = [“a”, “bcd”, “e”]
+
 Output: 2
    
 Explanation:
@@ -28,15 +31,16 @@ Explanation:
    e-a---
    bcd-e-
 
-The character ‘-’ signifies an empty space on the screen.
-```
-### More Examples:
-```
-   | rows | columns | sentence       | output |
-   |------+---------+----------------+--------|
-   |    2 |       8 | hello world    |      1 |
-   |    3 |       6 | a bcd e        |      2 |
-   |    4 |       5 | I had apple pi |      1 |
+The character ‘-’ signifies an 
+empty space on the screen.
+
+Expected Results:
+
+| rows | cols | sentence       | output |
+|------+------+----------------+--------|
+|    2 |    8 | hello world    |      1 |
+|    3 |    6 | a bcd e        |      2 |
+|    4 |    5 | I had apple pi |      1 |
 ```
 
 This problem was posted by [George Mauer](http://georgemauer.net/) to a local slack group and he wrote up an analysis [here](https://github.com/togakangaroo/daily-programmer/tree/master/sentence-screen-fitting).  He solves it efficiently with generators and also proposes an additional solution that cleverly uses _mAtHmAtIcS_ to calculate when the original pattern would repeat and dividing based on that amount.  
