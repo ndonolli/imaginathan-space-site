@@ -1,7 +1,7 @@
 :root {
-	--primary: blue;
-	--secondary: white;
-	--background: #FFF0EB;
+	--primary: #EFCB68;
+	--secondary: #000411;
+	--background: #160C28;
 }
 
 *, *:before, *:after {
@@ -24,6 +24,10 @@ body {
 
 main {
 	max-width: 37.5em;
+}
+
+p, h1, h2, h3, h4, h5, small {
+	color: #E1EFE6
 }
 
 p,
@@ -107,14 +111,15 @@ header nav li a[href]:not(:hover) {
 }
 
 header nav li a[data-current="current item"] {
-	background-color: white;
+	background-color: #EFCB68;
+	color: var(--secondary) !important;
 }
 
 /* Posts List */
 article {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #AEB7B3;
 	border-bottom: 1px solid var(--secondary);
 }
 
@@ -135,7 +140,6 @@ a[rel="tag"]:visited {
 	line-height: 2em;
 	height: 2em;
   border: 1px solid var(--secondary);
-	background-color: var(--secondary);
 	color: var(--primary);
   border-radius: .25em;
   text-decoration: none;
