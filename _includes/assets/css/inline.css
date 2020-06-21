@@ -141,6 +141,10 @@ main > section > article > * {
 	margin-bottom: .5em;
 }
 
+pre {
+	width: 100%;
+}
+
 /* Post Tags */
 a[rel="tag"],
 a[rel="tag"]:visited {
