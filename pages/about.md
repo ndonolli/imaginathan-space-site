@@ -1,7 +1,7 @@
 ---
 title: Hello
 date: 2017-01-01T00:00:00.000Z
-permalink: /about/index.html
+permalink: /
 eleventyNavigation:
   key: About
   order: 0
