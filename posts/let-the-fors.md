@@ -1,7 +1,7 @@
 ---
 title: Let the fors flow through you
 date: 2017-05-09T10:38:10-05:00
-summary: Why contemplating our mortality can be a powerful catalyst for change
+summary: Musings on a var
 author: Nathan Donolli
 tags:
   - javascript

@@ -23,6 +23,10 @@ body {
 	background-color: var(--background);
 }
 
+blockquote > p > em {
+	color: #AEB7B3;
+}
+
 main {
 	max-width: 37.5em;
 }
