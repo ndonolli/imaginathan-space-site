@@ -1,12 +1,12 @@
 ---
-title: Welcome
+title: Hello
 date: 2017-01-01T00:00:00.000Z
 permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 0
 ---
-Hi. My name is Nathan. 
+My name is Nathan. 
 
 I write software and occasionally [write about it](/blog) in this neat space I made.  Most of my time is spent developing UIs and services on the web.  I'm interested in functional programming, simplistic design, and software languages in general.
 

@@ -1,11 +1,11 @@
 ---
-title: "Let the fors flow through you"
+title: Let the fors flow through you
 date: 2017-05-09T10:38:10-05:00
 summary: Why contemplating our mortality can be a powerful catalyst for change
-author: "Nathan Donolli"
+author: Nathan Donolli
 tags:
-  - environment
-  - politics
+  - javascript
+  - languages
 ---
 
 What's wrong with `var`?  Well, a great many things, but is it really that bad?  Kind of.
@@ -14,7 +14,7 @@ I can't find any good reasons where `var` gives you a legitimate advantage over 
 
 You should absolutely use `let` on for loops to block scope your iterator.  Here's a case where using `var` goes too far:
 
-```javascript
+``` js
 var funcs = [];
 
 for (var i = 0; i < 3; i++) {

@@ -4,6 +4,8 @@ const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const slugify = require("slugify");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+
 
 module.exports = function(eleventyConfig) {
 
@@ -15,6 +17,24 @@ module.exports = function(eleventyConfig) {
   // layout: post. If you don’t want to rewrite all of those values, just map
   // post to a new file like this:
   // eleventyConfig.addLayoutAlias("post", "layouts/my_new_post_layout.njk");
+
+  eleventyConfig.addPlugin(syntaxHighlight, {
+
+    // Change which syntax highlighters are installed
+    templateFormats: ["*"], // default
+
+    // Or, just njk and md syntax highlighters (do not install liquid)
+    // templateFormats: ["njk", "md"],
+
+    // init callback lets you customize Prism
+    init: function({ Prism }) {
+      // Prism.languages.myCustomLanguage = /* */;
+    },
+
+    // Added in 3.0, set to true to always wrap lines in `<span class="highlight-line">`
+    // The default (false) only wraps when line numbers are passed in.
+    alwaysWrapLineHighlights: false
+  });
 
   // Merge data instead of overriding
   // https://www.11ty.dev/docs/data-deep-merge/
