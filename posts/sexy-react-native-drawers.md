@@ -1,7 +1,7 @@
 ---
 date: 2017-04-18T12:52:20-05:00
 title: Getting Your React Native Drawer to Behave Juuuuuuust Right
-summary: Getting Your React Native Drawer to Behave Juuuuuuust Right
+summary: Until it breaks with the next update
 author: Nathan Donolli
 tags:
   - react

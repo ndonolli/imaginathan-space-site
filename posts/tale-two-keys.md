@@ -1,7 +1,7 @@
 ---
 title: A Tale of Two Keys
 date: 2017-06-19T12:12:11-05:00
-summary: A Tale of Two Keys
+summary: A tiny primer on asymmetric encrypyion
 author: Nathan Donolli
 tags:
   - encryption

@@ -1,7 +1,7 @@
 ---
 date: 2016-11-12T18:34:37-06:00
 title: A Meditation on Redux
-summary: A Meditation on Redux
+summary: ...and the silky accent of Dan Abramov
 author: Nathan Donolli
 tags:
   - redux

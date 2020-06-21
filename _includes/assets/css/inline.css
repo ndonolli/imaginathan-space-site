@@ -31,7 +31,7 @@ main {
 	max-width: 37.5em;
 }
 
-p, h1, h2, h3, h4, h5, small {
+p, h1, h2, h3, h4, h5, small, li {
 	color: var(--light);
 }
 

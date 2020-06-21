@@ -1,7 +1,7 @@
 ---
 date: 2017-05-04T23:04:33-05:00
 title: To vim or not to vim
-summary: To vim or not to vim
+summary: How to fail successfully at learning vim
 author: Nathan Donolli
 tags:
   - vim
