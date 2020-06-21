@@ -88,12 +88,7 @@ It would seem a good time to tell our procedure how long to take from this endle
 (defn sentence-fit-count [rows cols sentence]
   (->> (cycle sentence)
        (reductions 
-		 (fn [[row-count spaces words] word]
-           (let [word-space (inc (count word))
-                 word-list (conj words word)]
-             (if (>= spaces word-space)
-               [row-count (- spaces word-space) word-list]
-               [(inc row-count) (- cols word-space) word-list])))
+		 (fn [[row-count spaces words] word] (...) )
          [1 cols []])
        (take-while 
          (fn [[row-count col-count]] 
