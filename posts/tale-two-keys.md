@@ -27,10 +27,9 @@ As our personal information becomes more distributed and more devices join our n
 
 ---
 
-<b id="f1">1:</b> The technique of public crypto keys was [suggested in the 1970's](https://en.wikipedia.org/wiki/Public-key_cryptography#Classified_discovery) but was not developed to fruition due to the infancy of the current networks and lack of computing power necessary. [↩](#a1)
+<b id="f1">1:</b> <small>The technique of public crypto keys was [suggested in the 1970's](https://en.wikipedia.org/wiki/Public-key_cryptography#Classified_discovery) but was not developed to fruition due to the infancy of the current networks and lack of computing power necessary. [↩](#a1)</small>
 
-
-
+---
 
 
 
