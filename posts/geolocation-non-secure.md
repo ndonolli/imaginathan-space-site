@@ -1,11 +1,11 @@
 ---
 date: 2016-10-08T14:31:20-06:00
 title: Working with geolocation on a non-secure site
-summary: Best practices for catching more pokemon
+summary: best practices for catching more pokemon
 author: Nathan Donolli
 tags:
   - javascript
-  - google
+  - web
 ---
 
 The last couple of days, our small development team **BrutSoft** was working on some legacy code written by our friend Harvey for his app "Pick-up". It is a simple web-app that organizes pick-up soccer games, sending out texts through Twilio's SMS service. We wanted to expand this app to work on a mobile platform through the Ionic framework, add an authentication service, and extra geolocation features.

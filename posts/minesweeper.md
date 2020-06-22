@@ -1,6 +1,6 @@
 ---
 date: 2017-05-18T15:04:06-05:00
-title: The Minesweeper Interview Problem
+title: The minesweeper interview problem
 summary: and other hilarious stories from the Amazon recruiting department
 author: Nathan Donolli
 tags:

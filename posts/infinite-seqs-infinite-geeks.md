@@ -1,10 +1,11 @@
 ---
 title: Infinite seqs for infinite geeks
 date: 2020-06-21T10:38:10-05:00
-summary: Don't fear the jvm stack, it won't blow
+summary: don't fear the JVM stack, it won't blow
 author: Nathan Donolli
 tags:
   - clojure
+  - languages
   - code katas
 ---
 

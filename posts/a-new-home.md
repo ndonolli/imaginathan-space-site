@@ -1,7 +1,7 @@
 ---
 title: A new home
 date: 2020-06-20T10:38:10-05:00
-summary: Look around, look around
+summary: look around, look around
 author: Nathan Donolli
 tags:
   - announcements
