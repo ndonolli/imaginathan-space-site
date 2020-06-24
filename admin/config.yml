@@ -24,6 +24,7 @@ collections:
         searchFields: ["name", "github"]
         valueField: "name"
       - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Draft", name: "draft", widget: "boolean" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
   # Our pages e.g. About
