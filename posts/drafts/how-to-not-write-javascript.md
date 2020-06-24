@@ -3,7 +3,7 @@ title: How to not write javascript
 date: 2020-06-25T10:38:10-05:00
 summary: "part 0: there and back again"
 author: Nathan Donolli
-draft: false 
+draft: true 
 tags:
   - languages
   - javascript

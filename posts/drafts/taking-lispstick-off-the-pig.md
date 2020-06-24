@@ -3,7 +3,7 @@ title: Taking the (lisp)stick off the pig
 date: 2020-06-25T10:38:10-05:00
 summary: how clojurescript and elm can help
 author: Nathan Donolli
-draft: false 
+draft: true 
 tags:
   - languages
   - javascript
