@@ -1,8 +1,9 @@
 ---
 title: Taking the (lisp)stick off the pig
-date: 2020-06-25T10:38:10-05:00
-summary: how clojurescript and elm can help
+date: 2020-06-25T15:38:10.000Z
 author: Nathan Donolli
+summary: how clojurescript and elm can help
+draft: true
 tags:
   - languages
   - javascript
