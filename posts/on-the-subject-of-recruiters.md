@@ -4,7 +4,8 @@ date: 2020-06-27T02:25:18.696Z
 author: Nathan Donolli
 summary: matchmaker matchmaker make me a match
 tags:
-  - career software
+  - career
+  - software
 ---
 I'm currently reading through [The 2-hour Job Search](https://2hourjobsearch.com/) by Steve Dalton, and it's been eye opening mainly because I would never choose to read a book like this.  It has a lot of neat perspectives that I think apply well to job hunting in the software field and I would like to share more thoughts in a later post. Anyway...
 
