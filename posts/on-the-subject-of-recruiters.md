@@ -32,6 +32,6 @@ I also encounter recruiters who require me to do a four hour take home assignmen
 
 But as Dalton assures - the worst network contact is one that responds only out of guilt, and who will unwittingly lead you on and waste your time.  It is actually better to be ignored by someone, so you know not to spend effort on them.  Recruiters come from a business that can wear its intentions on its sleeve.  After all, they don't want you to waste their time either.
 
-So I guess my point is: recruiters are doing the job that engineers are often too privileged to do. And those who must do the job of wading the job swamp understand that it is far too easy to become lost in it, these days. You do not need to work with a recruiter, but you should then take note of their tactics and apply it to your own job search. There may come a time where you could be the one pestering someone else's LinkedIn inbox.
+So I guess my point is: recruiters are doing the job that engineers are often too privileged to do. And those who must personally wade the job swamp understand that it is far too easy to become lost in it, these days. You do not need to work with a recruiter, but you should then take note of their tactics and apply it to your own job search. There may come a time where you could be the one pestering someone else's LinkedIn inbox.
 
 Or you could try walking in and giving a firm handshake. Who knows.
