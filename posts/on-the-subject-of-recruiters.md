@@ -1,5 +1,5 @@
 ---
-title: On the subject of recruiters
+title: Don't fear the recruiter
 date: 2020-06-27T04:03:40.527Z
 author: Nathan Donolli
 summary: matchmaker matchmaker make me a match
