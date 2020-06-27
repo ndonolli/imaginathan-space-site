@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 2
 ---
 
-## Coming soon!
+Coming soon!

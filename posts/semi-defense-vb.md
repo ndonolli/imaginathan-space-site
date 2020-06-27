@@ -3,7 +3,6 @@ title: In semi-defense of VB.net
 date: 2020-06-25T10:38:10-05:00
 summary: emphasis on "semi"
 author: Nathan Donolli
-draft: true 
 tags:
   - languages
   - .NET

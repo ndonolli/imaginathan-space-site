@@ -3,7 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 # Uncomment below to enable drafts
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 
@@ -24,7 +24,6 @@ collections:
         searchFields: ["name", "github"]
         valueField: "name"
       - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Draft", name: "draft", widget: "boolean" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
   # Our pages e.g. About
