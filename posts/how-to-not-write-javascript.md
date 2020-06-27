@@ -1,8 +1,9 @@
 ---
 title: How to not write javascript
-date: 2020-06-25T10:38:10-05:00
-summary: "part 0: there and back again"
+date: 2020-06-25T15:38:10.000Z
 author: Nathan Donolli
+summary: "part 0: there and back again"
+draft: true
 tags:
   - languages
   - javascript
