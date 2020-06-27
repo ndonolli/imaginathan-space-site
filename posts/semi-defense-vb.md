@@ -1,8 +1,9 @@
 ---
 title: In semi-defense of VB.net
-date: 2020-06-25T10:38:10-05:00
-summary: emphasis on "semi"
+date: 2020-06-25T15:38:10.000Z
 author: Nathan Donolli
+summary: emphasis on "semi"
+draft: true
 tags:
   - languages
   - .NET
