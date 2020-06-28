@@ -6,7 +6,7 @@
     "background_color": "#160C28",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#EFCB68",
+    "theme_color": "#160C28",
     "icons": [
         {
           "src": "static/img/logo-sm.png",
