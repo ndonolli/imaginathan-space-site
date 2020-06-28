@@ -19,13 +19,17 @@ if (window.netlifyIdentity) {
   });
   
   window.installPwa = function() {
-    deferredPrompt.prompt();
-    deferredPrompt.userChoice.then((choiceResult) => {
-      if (choiceResult.outcome === 'accepted') {
-        console.log('installed');
-      } else {
-        console.log('not installed :(');
-      }
-    });
+    if (!deferredPrompt) {
+      alert('Uh oh! The beforeinstallprompt must not have fired. You are either using iOS or have already installed the PWA.')
+    } else {
+      deferredPrompt.prompt();
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('installed');
+        } else {
+          console.log('not installed :(');
+        }
+      });
+    }
   }
 })(window);
