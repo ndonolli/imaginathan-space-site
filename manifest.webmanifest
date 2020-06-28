@@ -9,12 +9,12 @@
     "theme_color": "#EFCB68",
     "icons": [
         {
-          "src": "/static/images/logo-sm.png",
+          "src": "/images/uploads/logo-sm.png",
           "type": "image/png",
           "sizes": "192x192"
         },
         {
-          "src": "/static/images/logo.png",
+          "src": "/images/uploads/logo.png",
           "type": "image/png",
           "sizes": "512x512"
         }
