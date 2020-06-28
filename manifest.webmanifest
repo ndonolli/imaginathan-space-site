@@ -1,0 +1,22 @@
+{
+    "short_name": "imagiNathanSpace",
+    "name": "imagiNathanSpace",
+    "description": "Nathan's cool web zone",
+    "start_url": "/",
+    "background_color": "#160C28",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#EFCB68",
+    "icons": [
+        {
+          "src": "/static/images/logo-sm.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        },
+        {
+          "src": "/static/images/logo.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+    ]
+  }
