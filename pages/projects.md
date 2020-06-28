@@ -8,3 +8,5 @@ eleventyNavigation:
 ---
 
 Coming soon!
+
+<button onclick="installPwa()">install</button>
