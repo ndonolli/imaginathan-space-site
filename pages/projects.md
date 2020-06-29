@@ -9,4 +9,4 @@ eleventyNavigation:
 
 Coming soon!
 
-<button onclick="installPwa()">Install as a PWA</button>
+<!-- <button onclick="installPwa()">Install as a PWA</button> -->
