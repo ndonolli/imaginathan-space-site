@@ -50,7 +50,7 @@ Whatever.  I didn't get into computer science so I could do more math problems. 
 
 Generators, enumerables, whatever you choose to call them are common and indespensable tools in most programming languages.  Whether you prefer stateful cursors or not, enumerability is just the way to go when dealing with large datasets or potentially time-consuming algorithms.  This problem is no exception.
 
-In clojure, most sequential operations (that is, functions that work on the polymorphic `seq` interface) are lazy. This means that pretty much any application of map, reduce, etc. produces an object akin to a generator in other languages, without needing to be explicit.  It is a powerful aspect of the language which can fundamentally simplify how developers approach problems, since it encourages utilizing a more declarative approach to working with sequential data structures.
+In clojure, most sequential operations (that is, functions that work on the polymorphic `seq` interface) are lazy. This means that pretty much any application of map, filter, etc. produces an object akin to a generator in other languages, without needing to be explicit.  It is a powerful aspect of the language which can fundamentally simplify how developers approach problems, since it encourages utilizing a more declarative approach to working with sequential data structures.
 
 But enough with the sales pitch.  I want to show how you can use lazy sequences to solve a problem like this.  There are some core clojure functions like `(range)` that, if used irresponsibly, will fry the JVM since it will produce infinitely.  We will be careful and use infinity to our advantage.
 
