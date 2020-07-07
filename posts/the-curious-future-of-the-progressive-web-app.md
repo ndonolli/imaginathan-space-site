@@ -35,6 +35,6 @@ That is quite an underwhelming answer. PWAs are just websites? The web apps we'v
 
 3.  Implement a service worker
 
-And that's all.  Considering the complexity of modern production-scale web apps, most are two-thirds of the way there.  The app manifest is nothing but a json file that declares some metadata about your app and maybe some icons.  Heck, I took ten minutes out of my unprogressive life and turned *this* site into a PWA.  No, really! You can <span class="fake-link" onclick="app.installPwa()">install this "app"</span> on your phone!
+And that's all.  Considering the complexity of modern production-scale web apps, most are two-thirds of the way there.  The app manifest is nothing but a json file that declares some metadata about your app and maybe some icons.  Heck, I took ten minutes out of my unprogressive life and turned *this* site into a PWA.  No, really! You can <span class="fake-link" onclick="app.installPwa()">install this "app"</span> on your phone or desktop!
 
 The confusion regarding the PWA term is similar to that of the term HTML5.  The [MDN docs](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) refer to HTML5 being both the latest version of the language as well as a collection of modern web technologies that are asynchronously adopted by major browsers.
