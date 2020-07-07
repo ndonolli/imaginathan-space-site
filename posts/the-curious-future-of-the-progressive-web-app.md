@@ -26,3 +26,5 @@ If you did a basic Google search, you would find this definition:
 > A progressive web application is a type of application software delivered through the web, built using common web technologies including HTML, CSS and JavaScript. It is intended to work on any platform that uses a standards-compliant browser.
 
 That is quite an underwhelming answer. PWAs are just websites? The answer is *kind of.*
+
+This is the most comprehensive article I could find regarding the history of the term "progressive web app" and how its definition shifted over time.  If you have the time to read it, it's a wild ride.  Getting to the bottom of it all is like a boxcar kids detective story.
