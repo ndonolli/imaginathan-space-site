@@ -20,7 +20,7 @@ if (window.netlifyIdentity) {
   
   const installPwa = () => {
     if (!deferredPrompt) {
-      alert('Uh oh! The beforeinstallprompt event must not have fired. You are either using iOS or have already installed the PWA.')
+      alert('Uh oh! The beforeinstallprompt event must not have fired. You are either using iOS, an older browser, or have already installed the PWA.')
     } else {
       deferredPrompt.prompt();
       deferredPrompt.userChoice.then((choiceResult) => {
