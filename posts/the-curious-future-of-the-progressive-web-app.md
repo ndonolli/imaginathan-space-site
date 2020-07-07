@@ -27,16 +27,41 @@ If you did a basic Google search, you would find this definition:
 
 That is quite an underwhelming answer. PWAs are just websites? The web apps we've been making all this time were *progressive?* The answer is *kind of.*
 
+The main issue is that a "PWA" does not refer to a single, unique entity but rather a collection of requirements expected of web apps.  If they fulfill these requirements, they are able to be used offline in a similar way to native mobile and desktop apps. The confusion regarding the PWA term is similar to that of the term HTML5.  The [MDN docs](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) refer to HTML5 being both the latest version of the language as well as a collection of modern web technologies that are asynchronously adopted by major browsers.  Due to the miscommunication in marketing, HTML5 is misunderstood as a standalone technology rather than a collection of good things that are mostly all there.
+
 [This is the most comprehensive article](https://medium.com/@amberleyjohanna/seriously-though-what-is-a-progressive-web-app-56130600a093) I could find regarding the history of the term "progressive web app" and how its definition shifted over time.  If you have the time to read it, it's a wild ride.  Getting to the bottom of it all is like a boxcar kids detective story.  But for the lazy, the main point is that for your site to be considered a PWA, it must:
 
 1. Be served over HTTPS
+2. Include a Web App Manifest
+3. Implement a service worker
 
-2.  Include a Web App Manifest
+And that's all.  Considering the complexity of modern production-scale web apps, most are two-thirds of the way there.  The app manifest is nothing but a json file that declares some metadata about your app and maybe some icons.  Here's an example manifest for this site:
 
-3.  Implement a service worker
+```json
+{
+  "short_name": "imagiNathanSpace",
+  "name": "imagiNathanSpace",
+  "description": "Nathan's cool web zone",
+  "start_url": "/",
+  "background_color": "#160C28",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#160C28",
+  "icons": [
+      {
+        "src": "static/img/logo-sm.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "static/img/logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+  ]
+}
+```
 
-And that's all.  Considering the complexity of modern production-scale web apps, most are two-thirds of the way there.  The app manifest is nothing but a json file that declares some metadata about your app and maybe some icons.  Heck, I took ten minutes out of my unprogressive life and turned *this* site into a PWA.  No, really! You can <span class="fake-link" onclick="app.installPwa()">install this "app"</span> on your phone or desktop!
+Heck, I took ten minutes out of my unprogressive life and turned *this* site into a PWA.  No, really! You can <span class="fake-link" onclick="app.installPwa()">install this "app"</span> on your phone or desktop!
 
 If you actually clicked that install link, you may have received an alert giving you sad reasons as to why it didn't work.  This brings up another pain point of PWAs: the bottleneck on PWA adoption is on the device/browser manufacturers, not the development side.
-
-The confusion regarding the PWA term is similar to that of the term HTML5.  The [MDN docs](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) refer to HTML5 being both the latest version of the language as well as a collection of modern web technologies that are asynchronously adopted by major browsers.
