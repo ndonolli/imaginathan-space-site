@@ -29,4 +29,4 @@ That is quite an underwhelming answer. PWAs are just websites? The web apps we'v
 
 [This is the most comprehensive article](https://medium.com/@amberleyjohanna/seriously-though-what-is-a-progressive-web-app-56130600a093) I could find regarding the history of the term "progressive web app" and how its definition shifted over time.  If you have the time to read it, it's a wild ride.  Getting to the bottom of it all is like a boxcar kids detective story.  But for the lazy, I'll sum up the real main requirements for a PWA:
 
-The confusion regarding the PWA term is similar to that of the term HTML5.  The [MDN docs](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+The confusion regarding the PWA term is similar to that of the term HTML5.  The [MDN docs](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) refer to HTML5 being both the latest version of the language as well as a collection of modern web technologies that are asynchronously adopted by major browsers.
