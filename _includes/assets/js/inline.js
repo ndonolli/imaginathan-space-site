@@ -18,9 +18,9 @@ if (window.netlifyIdentity) {
     deferredPrompt = e;
   });
   
-  window.installPwa = function() {
+  const installPwa = () => {
     if (!deferredPrompt) {
-      alert('Uh oh! The beforeinstallprompt must not have fired. You are either using iOS or have already installed the PWA.')
+      alert('Uh oh! The beforeinstallprompt event must not have fired. You are either using iOS or have already installed the PWA.')
     } else {
       deferredPrompt.prompt();
       deferredPrompt.userChoice.then((choiceResult) => {
@@ -32,4 +32,8 @@ if (window.netlifyIdentity) {
       });
     }
   }
+
+  window.app = {
+    installPwa
+  };
 })(window);
