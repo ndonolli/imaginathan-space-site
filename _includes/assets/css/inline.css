@@ -63,11 +63,18 @@ code {
 	color: var(--primary)
 }
 
+.fake-link:hover {
+	text-decoration: underline;
+    cursor: pointer;
+}
+
+.fake-link,
 a[href],
 a[href]:visited {
 	color: var(--primary);
 }
 
+.fake-link,
 a[href]:not(:hover) {
 	text-decoration: none;
 }
