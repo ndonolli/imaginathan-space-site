@@ -64,4 +64,8 @@ And that's all.  Considering the complexity of modern production-scale web apps,
 
 Heck, I took ten minutes out of my unprogressive life and turned *this* site into a PWA.  No, really! You can <span class="fake-link" onclick="app.installPwa()">install this "app"</span> on your phone or desktop!
 
-If you actually clicked that install link, you may have received an alert giving you sad reasons as to why it didn't work.  This brings up another pain point of PWAs: the bottleneck on PWA adoption is on the device/browser manufacturers, not the development side.
+If you actually clicked that install link, you may have received an alert giving you sad reasons as to why it didn't work.  This brings up another pain point of PWAs: the bottleneck on PWA adoption is on device manufacturers and browsers, not the development community.  As far as the Using HTTPS and SSL certificates are practically mandatory these days. Service workers are relatively new in the age of the web but are widely used for performance requirements. Major players like Twitter and Instagram invest heavily on creating fluid in-browser versions of their apps and are both installable as PWAs if you choose to do so.
+
+On the device manufacturer side, Google has emerged as one of the largest advocates for "progressifying" your web app. They have done work consolidating documentation, teaching materials, and marketing resources in order to spread the news to software, product, and business oriented professionals alike.  Chrome on mobile and desktop supports modern web APIs and implements the necessary requirements to prompt users to install the app from the website.
+
+Apple, on the other hand, is a different story. Fanboys may point to the iPhone launch video where Steve Jobs envisions a future of 
