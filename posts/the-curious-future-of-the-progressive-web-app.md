@@ -27,6 +27,14 @@ If you did a basic Google search, you would find this definition:
 
 That is quite an underwhelming answer. PWAs are just websites? The web apps we've been making all this time were *progressive?* The answer is *kind of.*
 
-[This is the most comprehensive article](https://medium.com/@amberleyjohanna/seriously-though-what-is-a-progressive-web-app-56130600a093) I could find regarding the history of the term "progressive web app" and how its definition shifted over time.  If you have the time to read it, it's a wild ride.  Getting to the bottom of it all is like a boxcar kids detective story.  But for the lazy, I'll sum up the real main requirements for a PWA:
+[This is the most comprehensive article](https://medium.com/@amberleyjohanna/seriously-though-what-is-a-progressive-web-app-56130600a093) I could find regarding the history of the term "progressive web app" and how its definition shifted over time.  If you have the time to read it, it's a wild ride.  Getting to the bottom of it all is like a boxcar kids detective story.  But for the lazy, the main point is that for your site to be considered a PWA, it must:
+
+1. Be served over HTTPS
+
+2.  Include a Web App Manifest
+
+3.  Implement a service worker
+
+And that's all.  Considering the complexity of modern production-scale web apps, most are two-thirds of the way there.  The app manifest is nothing but a json file that declares some metadata about your app and maybe some icons.  Heck, I took ten minutes out of my unprogressive life and turned *this* site into a PWA.  No, really! You can install this "app" on your phone!
 
 The confusion regarding the PWA term is similar to that of the term HTML5.  The [MDN docs](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) refer to HTML5 being both the latest version of the language as well as a collection of modern web technologies that are asynchronously adopted by major browsers.
