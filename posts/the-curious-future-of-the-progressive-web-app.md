@@ -2,7 +2,7 @@
 title: The curious future of the progressive web app
 date: 2020-07-07T19:13:55.849Z
 author: Nathan Donolli
-summary: also, what even is a progressive web app?
+summary: "aka: help I don't even know what this is"
 tags:
   - PWA
   - web
