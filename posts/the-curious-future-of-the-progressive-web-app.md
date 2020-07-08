@@ -74,4 +74,4 @@ But this is not entirely surprising.  In Q3 of 2019, Apple's app store brought i
 
 And that's one more thing that we haven't talked much about: users. If software engineers and tech entrepreneurs are confused about PWAs, users are especially so.  All things considered, the ease of mobile apps have made it very easy for normal people to use great software.  The user experience of finding and installing progressive web apps is currently unacceptable if we expect them to replace native apps in the future.  
 
-That day may come when only the term "PWA" is no longer required.
+That day may come only when the term "PWA" is gone.
