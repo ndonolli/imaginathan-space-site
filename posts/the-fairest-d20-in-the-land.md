@@ -1,6 +1,6 @@
 ---
-title: The fairest d20 in the land
-date: 2020-08-12T21:17:12.439Z
+title: The fairest d20 in all the land
+date: 2020-08-12T21:55:02.432Z
 author: Nathan Donolli
 summary: wasting random bit generation on overly cryptographically secure dice
 tags:
@@ -22,3 +22,5 @@ It was these feelings, shared by me and my group, that led me into a rabbit hole
 And I wasted it on dice rolls.
 
 ## On the subject of randomness
+
+It's important to first address our emotions toward dice.  Humans are not computers and [our perception of randomness](https://www.sciencedirect.com/science/article/pii/019688589190029I) is not aligned with how it is mathematically defined.  We expect a "random" sequence to
