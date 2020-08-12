@@ -23,4 +23,4 @@ And I wasted it on dice rolls.
 
 ## On the subject of randomness
 
-It's important to first address our emotions toward dice.  Humans are not computers and [our perception of randomness](https://www.sciencedirect.com/science/article/pii/019688589190029I) is not aligned with how it is mathematically defined.  We expect a "random" sequence to
+It's important to first address our emotions toward dice.  Humans are not computers and [our intuitive notion of randomness](https://www.sciencedirect.com/science/article/pii/019688589190029I) is not aligned with how it is mathematically defined.  We perceive a "random" sequence to be one where the values are all over the place, and the same number never appears twice.  Getting five natural 1 rolls in a row is probably the least random thing I can think of, but in reality this is not true.
