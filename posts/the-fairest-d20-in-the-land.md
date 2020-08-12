@@ -7,7 +7,6 @@ tags:
   - cryptography
   - clojurescript
   - open source
-  - ""
 ---
 The last few weeks I've been playing Dungeons and Dragons weekly with some of my friends.  For those who have never played, the game is mostly powered by your imagination.  There are rules for how stats are determined and how events can occur but the outcome of the story is a complete sandbox that is determined by the players.  Whether or not those outcomes occur, is up to the rolls of the dice.  So interestingly, the dice could be considered the *only* game mechanic.
 
@@ -17,7 +16,7 @@ As such, dice rolls are the epicenter of much tension and excitement.  They are,
 
 Being the sole mechanic, dice rolls often get flack when luck seems to run out.  My party and I constantly curse and complain and switch to other dice sets, or more often cease using the online dice roller provided by Roll20, the site we play on.  The engineer in me understands that random outcomes mathematically do not hold any pattern, but the craps player in me can't help but feel *cheated.* 
 
-It was these feelings, shared by me and my group, that led me into a rabbit hole of the questions: How can we make dice more random?  How is this done with technology? And more importantly, does it matter? I arrived at [implementing a solution](https://github.com/ndonolli/winkler) to produce random numbers with sufficient bits of entropy to call them "random". This is a solution that is able to provide extra security in client-side cryptography that is better than most default RNGs that ship with javascript engines in browsers.
+It was these feelings, shared by me and my group, that led me into a rabbit hole of the questions: How can we make dice more random?  How is this done with technology? And more importantly, does it matter? I arrived at [implementing a solution](https://github.com/ndonolli/winkler) to produce random numbers with sufficient bits of entropy to call them "random". This is a solution that is able to provide extra security in client-side cryptography that is better than the default RNGs shipped with javascript engines.
 
 And I wasted it on dice rolls.
 
