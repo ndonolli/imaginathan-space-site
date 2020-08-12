@@ -29,8 +29,8 @@ This is seemingly the case with a physical die.  Our arms are not mechanical mac
 
 On the other hand, if we assume that our all of our universe could be modeled as a finite state machine comprising of force vectors then any future events could be determined by the universe's past state.  This is, simplistically, how the big bang was discovered.  In this scenario, nothing is random because the outcome of a dice roll will always affect the outcome of the following one, making it completely deterministic.  
 
-On the other hand, this model starts to break down when we introduce the strange but successful theory of quantum mechanics into the equation. It states that all elementary particles exist in a superposition and have a wave-function probability of collapsing into a state, making any physical prediction impossible until an observation is made.
+On the other hand, this model starts to break down when we introduce the strange but successful theory of quantum mechanics into the equation. The theory states that all elementary particles exist in a superposition and have a wave-function probability of collapsing into a state, making any physical prediction impossible until an observation is made.
 
 ## Anyway...
 
-Let's work in a domain where we have a little more control: computers.
+Let's work in a domain where we have a little more control: computers.  For as long as they've been around, computers have been deterministic.  They use electricity to create some state and then the CPU does a thing and then a new state is created, per our predictions.  But if this is the basis of how computers work, how can they create true randomness?  The answer, right now, is that they can't.  But they can get damn close.
