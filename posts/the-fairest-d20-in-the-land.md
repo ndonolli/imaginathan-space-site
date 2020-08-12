@@ -25,4 +25,4 @@ And I wasted it on dice rolls.
 
 It's important to first address our emotions toward dice.  Humans are not computers and [our intuitive notion of randomness](https://www.sciencedirect.com/science/article/pii/019688589190029I) is not aligned with how it is mathematically defined.  We perceive a "random" sequence to be one where the values are all over the place, and the same number never appears twice.  In actuality, having a die that would never roll the same number twice is nearly the opposite of random, since it establishes a pattern and recursively changes the probability outcome of the subsequent roll.  True randomness must be patternless and indeterministic.
 
-This is seemingly the case with a physical die.  Each time
+This is seemingly the case with a physical die.  Our arms are not mechanical hands
