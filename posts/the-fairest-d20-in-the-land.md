@@ -9,7 +9,7 @@ tags:
   - open source
   - ""
 ---
-I play weekly sessions with some of my friends playing  Dungeons and Dragons.  For the uninitiated, the game is mostly powered by your imagination.  There are rules for how stats are determined and how events can occur but the outcome of the story is a complete sandbox that is determined by the players.  Whether or not those outcomes occur, is up to the rolls of the dice.  So interestingly, the dice could be considered the *only* game mechanic.
+The last few weeks I've been playing Dungeons and Dragons weekly with some of my friends.  For those who have never played, the game is mostly powered by your imagination.  There are rules for how stats are determined and how events can occur but the outcome of the story is a complete sandbox that is determined by the players.  Whether or not those outcomes occur, is up to the rolls of the dice.  So interestingly, the dice could be considered the *only* game mechanic.
 
 As such, dice rolls are the epicenter of much tension and excitement.  They are, after all, what could be considered the "fate" of the game.  Like real world deities, they are given much reverence even in our physical, corporeal existences.  Real dice are decorated and sometimes uniquely branded. Computerized dice may lack a soul but great minds have toiled over their electronic design.  The dice are the deciders of the fantastical world and the pasts, futures, and presents of its people are at its omnipresent whim.
 
