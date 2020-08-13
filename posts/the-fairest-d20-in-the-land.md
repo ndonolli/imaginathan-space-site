@@ -36,4 +36,4 @@ Let's work in a domain where we have a little more control: computers.  For as l
 
 Cryptography is the driving force in ongoing research regarding random number generators. The main challenge in designing algorithms is for it to be efficient in its encryption process while making it very hard to decrypt.  There exist several benchmarks, such as the [next-bit-test](https://en.wikipedia.org/wiki/Next-bit_test), to determine the effort needed to crack encrypted data.
 
-The current implementation shipped with most javascript engines is a \`XorShift128+\` RNG which is a type of linear-feedback shift register designed to be quite efficient and fast.
+The current implementation shipped with most javascript engines is a `XorShift128+` RNG which is a type of linear-feedback shift register designed to be quite efficient and fast.
