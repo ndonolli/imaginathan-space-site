@@ -24,7 +24,7 @@ And I wasted it on dice rolls.
 
 It's important to first address our emotions toward dice.  Humans are not computers and [our intuitive notion of randomness](https://www.sciencedirect.com/science/article/pii/019688589190029I) is not aligned with how it is mathematically defined.  We perceive a "random" sequence to be one where the values are all over the place, and the same number never appears twice.  In actuality, having a die that would never roll the same number twice is nearly the opposite of random, since it establishes a pattern and recursively changes the probability outcome of the subsequent roll.  True randomness must be patternless and indeterministic.
 
-This is seemingly the case with a physical die.  Our arms are not mechanical machines and are likely incapable of precisely duplicating the same roll every time if we tried.  Combine this with the minutia of small variables like drag, air resistance, etc. and it is about as patternless as you can get.
+This is seemingly the case with a physical die.  Our arms are not mechanical machines and are likely incapable of precisely duplicating the same roll every time if we tried.  Combine this with the minutia of small variables like drag, friction, etc. and it is about as patternless as you can get.
 
 On the other hand, if we assume that our all of our universe could be modeled as a finite state machine comprising of force vectors then any future events could be determined by the universe's past state.  This is, simplistically, how the big bang was discovered.  In this scenario, nothing is random because the outcome of a dice roll will always affect the outcome of the following one, making it completely deterministic.  
 
