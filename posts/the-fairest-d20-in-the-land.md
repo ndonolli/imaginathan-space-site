@@ -36,4 +36,4 @@ Let's work in a domain where we have a little more control: computers.  For as l
 
 Cybersecurity is the driving force in ongoing research regarding cryptography and random number generation. The main challenge in designing ciphers is for it to be efficient in its encryption process while making potential decryption so computationally time consuming, it can be considered next to impossible.  There exist several benchmarks, such as the [next-bit-test](https://en.wikipedia.org/wiki/Next-bit_test), to determine the effort needed to crack encrypted data.
 
-The current implementation shipped with most javascript engines is a `XorShift128+` RNG which is a type of linear-feedback shift register designed to be quite efficient and fast.
+The current implementation shipped with most javascript engines is a `XorShift128+` RNG which is a type of linear-feedback shift register designed to be quite efficient and fast.  This RNG is a great improvement on previous implementations and suitable for most use-cases.  However, since the algorithm relies on a fixed seed, it is still only a *psuedo*-random number generator which fundamentally limits its practicality for cryptography.
