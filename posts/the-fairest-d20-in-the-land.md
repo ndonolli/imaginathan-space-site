@@ -1,6 +1,6 @@
 ---
 title: The fairest d20 in all the land
-date: 2020-08-12T21:55:02.432Z
+date: 2020-08-25T03:17:40.663Z
 author: Nathan Donolli
 summary: wasting random bit generation on overly cryptographically secure dice
 tags:
@@ -46,6 +46,14 @@ One wackier but, believe it or not, better methods is Cloudflare's [](https://bl
 
 ![lavarand at cloudflare](https://blog.cloudflare.com/content/images/2017/11/lava-lamps-camera.jpg)
 
-*I'm waiting for the day where cloudflare releases post-breach details that one of the lava lamps fell over*
+*I'm waiting for the day where cloudflare releases a post-breach report claiming that one of the lava lamps fell over*
 
-dddf
+Roll20, whose dice began this whole mess, actually has thought harder than my whole party on the best way to deliver the ideal dice rolling experience.  They have recently released a server-side dice rolling service called [QuantumRoll](https://roll20.zendesk.com/hc/en-us/articles/360037256594-Quantum-Roll), which gathers "true randomness" by measuring fluctuations in a beam of light.  In my opinion, this is both overkill and one of the best sources of entropy in our physical world.  The double-slit experiment, where beams of electrons were demonstrated to have both wave *and* particle like properties, exposed the strange quantum phenomena that led to the development of Heisenberg's Uncertainty Principle.  It is difficult to be more random than that.
+
+But say you do not have the means to precisely measure electron fluctuations from a high powered laser beam, or your dad refuses to lend you his collection of Grateful Dead themed lava lamps stored in his garage.  Or say you do not wish to incur the monetary and time delay costs of a server-side operation.  Client-side solutions in this space exist, typically relying on user interactions as a source of noise.
+
+It is in this space that I created a solution named [Winkler](https://github.com/ndonolli/winkler), affectionally named for Phandalin's town master whom our party accidentally, uh, kidnapped and held hostage.  Winkler does not rely on user interactions as to not awkwardly depend on the DOM.  It instead utilizes a solution similar to the unix `/dev/random/` tools, blocking and performing floating-point operations as a measurement of the system.  This is much more lightweight and simple, and it works quite well with the lazy evaluation model of clojure's sequence operations, as well as its first-class asynchronous channels.
+
+It is both tiring but fitting that the conclusion of my journey led me to a simple solution after traversing a vast world of strange complexities and resources.  I would not recommend Winkler as a one-size-fits-all solution for client-side cryptography, but with new, standardized js namespaces like `window.crypto` (and its node.js equivalent) I hope this can provide some usefulness in the clojure(script) space.  And as for dice, I don't think they will ever be fair to us - no matter how much work is put into its power.  To move forward, I can only head the immortal advice of my favorite fantasy character:
+
+![All we have to decide is what to do with the time that is given us.](/static/img/gandalf-time.jpg "gandalf time")
