@@ -44,5 +44,5 @@ Perhaps the most well known example is `/dev/random/` utility provided in most l
 
 One wackier but, believe it or not, better methods is Cloudflare's [](https://blog.cloudflare.com/lavarand-in-production-the-nitty-gritty-technical-details/)[LavaRand](https://blog.cloudflare.com/lavarand-in-production-the-nitty-gritty-technical-details/) ..uhh.. system.  It involves a wall of lava lamps and video footage in which the changing pixel data is used as a source of entropy.  It is used in production (!) and has been very successful in providing solid cryptography for the large-scale services provided by the organization.
 
-![when you visit sf and all you want to do is see some lava lamps](https://blog.cloudflare.com/content/images/2017/11/lava-lamps-camera.jpg)
+![lavarand at cloudflare](https://blog.cloudflare.com/content/images/2017/11/lava-lamps-camera.jpg)
 
