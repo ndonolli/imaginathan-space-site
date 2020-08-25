@@ -46,3 +46,6 @@ One wackier but, believe it or not, better methods is Cloudflare's [](https://bl
 
 ![lavarand at cloudflare](https://blog.cloudflare.com/content/images/2017/11/lava-lamps-camera.jpg)
 
+*I'm waiting for the day where cloudflare releases post-breach details that one of the lava lamps fell over*
+
+dddf
