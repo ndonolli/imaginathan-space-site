@@ -43,16 +43,6 @@
 						<small>{{ project.date | readableDate }}</small>
 					</time>
 				</p>
-				{% if project.data.tags %}
-					<p>
-						{% for tag in project.data.tags %}
-						{%- if tag != "project" -%}
-							{% set tagUrl %}/tags/{{ tag }}/{% endset %}
-						<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-						{%- endif -%}
-						{% endfor %}
-					</p>
-				{% endif %}
 			</article>
 		{% endif %}
 	{% endfor %}
