@@ -5,7 +5,11 @@ summary: A musical app to accompany your horror b-movie soundtrack
 projectUrl: https://quaalords-theremin.netlify.app/
 repoUrl: https://github.com/ndonolli/quaalords-theremin-static
 author: Nathan Donolli
+tags:
+  - app theremin
 ---
+![the quaalords theremin app](/static/img/quaalords-thereming-screenshot.png "the quaalords theremin app")
+
 The Quaalords are a New Orleans based trio playing rock influenced by the imagery of classic and obscure horror films.  The guitarist, Jeff Louviere, sports a vintage hollow body Gretsch as well as some frankenstein monstrosity of a guitar with a literal working theremin attached for effect.  
 
 I must have had one too many after one of the shows while I was going on about the JavaScript WebAudio API and how every other theremin app I’ve tried was hot garbage.  A theremin on your phone that you operate like a real thereminist, Jeff agreed, would be the tits.  I quickly got to work.
@@ -16,4 +20,4 @@ The most difficult aspect was that these relatively new browser APIs have incons
 
 I did rewrite it in clojurescript though, just for fun.  I’m actually glad I didn’t, initially.  The Audiocontext object doesn’t vibe too well with a functional paradigm.  I mean, you could do it, but the benefits of clojurescript weren’t totally needed here.  Sometimes, barebones JavaScript gets the job done.
 
-Anyway, try it out. I can’t take credit for the sick backdrop. That was Jeff too.
+Anyway, [try it out](https://quaalords-theremin.netlify.app/). I can’t take credit for the sick backdrop. That was Jeff too.
