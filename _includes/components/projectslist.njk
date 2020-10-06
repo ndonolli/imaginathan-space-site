@@ -4,17 +4,38 @@
 		{% else %}
 			<article{% if post.url == url %} data-current="current item"{% endif %}>
 				<h3>
-					<a href="{{ project.url | url }}">
-						{% if project.data.title %}
-							{{ project.data.title }}
-						{% else %}
-							Untitled
-						{% endif %}
-					</a>
+					{# In case the main url should link somewhere else #}
+					{% if project.data.postUrl %}
+						<a href="{{ project.data.postUrl | url }}">
+							{% if project.data.title %}
+								{{ project.data.title }}
+							{% else %}
+								Untitled
+							{% endif %}
+						</a>
+					{% else %}
+						<a href="{{ project.url | url }}">
+							{% if project.data.title %}
+								{{ project.data.title }}
+							{% else %}
+								Untitled
+							{% endif %}
+						</a>
+					{% endif %}
 				</h3>
 				{% if project.data.summary %}
 					<p>
 						{{ project.data.summary }}
+					</p>
+				{% endif %}
+				{% if project.data.projectUrl %}
+					<p>
+						<a href="{{ project.data.projectUrl | url }}">check it out</a>
+					</p>
+				{% endif %}
+				{% if project.data.repoUrl %}
+					<p>
+						<a href="{{ project.data.repoUrl | url }}">github</a>
 					</p>
 				{% endif %}
 				<p>
