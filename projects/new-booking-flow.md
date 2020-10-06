@@ -10,6 +10,8 @@ As an engineer at [GoDo.io](godo.io), a SaaS company in the tour and activity sp
 
 I had the opportunity to greenfield a brand new modern booking flow, customizable for use on client sites.  Although a deceptively basic tool for customers, it’s design, as I realized, necessitated much thought and care. There exists a good degree of logical paths and changing app state, as well as a demand for exceptional UX across devices in order to maintain a high conversion rate with end users.
 
+![booking flow](/static/img/booking-flow-screenshot.png "booking flow")
+
 The new booking flow was built and deployed as a standalone node app serving an Angular 7 application.  The project was developed in tandem with a new public RESTful (mostly) API web server. Both were deployed on Azure via app containers, and there were hardly any issues with downtime, scaling, or deploying throughout its development and lifecycle.
 
 The previous booking flow suffered from bugs involving corrupted state, which in rare cases would charge incorrect amounts to the customer. To achieve a 100% success rate, I needed functional state management on the client and strict idempotency on the server. 
@@ -19,6 +21,8 @@ A flat, global app state was an ideal choice for the client. There are many inst
 The benefits, for this case, were night and day.  You can have lamba-calculus level confidence  rendering views based off immutable state, which is the main selling point.  But the developer benefits are the real secret weapon.  Time travel debugging, a maintainable event dispatch system, and improved testing do wonders when developing within a deep forest of many conditionals.  There are tradeoffs of course, the main one being the burden of boilerplate.  And there is no framework for the designation of events - it must be maintained with a conviction to not break convention.
 
 With this in place, the front end was well equipped to be reactive to the data received from the back end.  A major issue of the legacy booking flow was that the “shopping cart” state was kept client side. I moved nearly all business logic and validations server-side and was able to gather much more abandoned cart data for our CRM.  Only UI state and service data was used for rendering client side.
+
+The non RESTful resources of the API were secure endpoints responsible for securely managing credit card payments handled via a third party payment processor.  The system was built platform agnostic, although only Stripe and Square were the only processors used in production.  Token-based authentication was used for sessions and as another mechanism to manage server-side state.
 
 The whole booking flow was initiated via a JavaScript snippet we provided clients to use on their site, which is standard. The booking flow was designed mobile-first with an emphasis on responsiveness.  It was contained in a lightbox even on small viewports, which was pretty rare among our competitors (most just redirected). 
 
