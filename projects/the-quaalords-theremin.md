@@ -5,8 +5,6 @@ summary: A musical app to accompany your horror b-movie soundtrack
 projectUrl: https://quaalords-theremin.netlify.app/
 repoUrl: https://github.com/ndonolli/quaalords-theremin-static
 author: Nathan Donolli
-tags:
-  - app theremin
 ---
 ![the quaalords theremin app](/static/img/quaalords-thereming-screenshot.png "the quaalords theremin app")
 

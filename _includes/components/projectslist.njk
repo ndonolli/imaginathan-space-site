@@ -38,11 +38,6 @@
 						<a href="{{ project.data.repoUrl | url }}">github</a>
 					</p>
 				{% endif %}
-				<p>
-					<time datetime="{{ project.date | machineDate }}">
-						<small>{{ project.date | readableDate }}</small>
-					</time>
-				</p>
 			</article>
 		{% endif %}
 	{% endfor %}

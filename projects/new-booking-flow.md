@@ -3,8 +3,6 @@ title: New Booking Flow
 date: 2020-01-09T02:30:47.781Z
 author: Nathan Donolli
 summary: A modern client-facing booking flow for tour and activity events
-tags:
-  - project
 ---
 As an engineer at [GoDo.io](godo.io), a SaaS company in the tour and activity space, there was never a dull day constantly designing techy solutions for an industry in high demand for them.   My team and I learned a lot and put in some good work.
 
