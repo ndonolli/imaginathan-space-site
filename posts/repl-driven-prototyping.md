@@ -15,3 +15,27 @@ Most clojure developers have found joy in repl-driven development, and this is n
 cljs.wordcloud=> (def text "...")
 #'wordcloud/text
 ```
+
+```clojure
+cljs.wordcloud=> (def words (clojure.string/split text #"\W"))
+#'wordcloud/words
+```
+
+```clojure
+cljs.wordcloud=> (frequencies words)
+{"" 161,
+ "sweet" 2,
+ "release" 3,
+ "pivoting" 1,
+ ...
+```
+
+```clojure
+cljs.wordcloud=> (sort (frequencies words))
+(["" 161]
+ ["4th" 1]
+ ["Abba" 1]
+ ["Added" 1]
+ ...
+```
+
