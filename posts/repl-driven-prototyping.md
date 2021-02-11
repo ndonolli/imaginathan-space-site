@@ -15,14 +15,12 @@ I would like to share an example of repl-driven prototyping's usefulness in real
 
 Seeing as this would likely be a client-hosted component I considered prototyping it in javascript.  After all, I found a reasonable wordcloud library on npm.  But these days, shadow-cljs and the mature clojurescript tools make spinning up a webapp + repl simpler than ever.  So why not?  We'll get the advantage of the exceptional core library and the repl.
 
-The wordcloud library's API is simple enough - it expects an array of arrays containing both the word and weight to be passed into the render function. I wanted to use real data so I grabbed some test data consisting of sample text separated by newlines.  This looks like a good thing to define in our repl.
+The wordcloud library's API is simple enough - it expects an array of tuples (as arrays) containing both the word and weight to be passed into the render function. I wanted to use real data so I grabbed some test data consisting of sample text separated by newlines.  This looks like a good thing to define in our repl.
 
 ```clojure
 cljs.wordcloud=> (def text "...")
 #'wordcloud/text
 ```
-
-
 
 ```clojure
 cljs.wordcloud=> (def words (clojure.string/split text #"\W"))
@@ -46,4 +44,3 @@ cljs.wordcloud=> (sort (frequencies words))
  ["Added" 1]
  ...
 ```
-
