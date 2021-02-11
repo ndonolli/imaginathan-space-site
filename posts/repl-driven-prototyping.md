@@ -18,7 +18,7 @@ Seeing as this would likely be a client-hosted component I considered prototypin
 The wordcloud library's API is simple enough - it expects an array of tuples (as arrays) containing both the word and weight to be passed into the render function. I wanted to use real data so I grabbed some test data consisting of sample text separated by newlines.  This looks like a good thing to define in our repl.
 
 ```clojure
-cljs.wordcloud=> (def text "...")
+cljs.wordcloud=> (def text "...not gonna put the whole dataset here...")
 #'wordcloud/text
 ```
 
