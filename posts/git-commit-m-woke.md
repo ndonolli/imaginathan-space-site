@@ -1,5 +1,5 @@
 ---
-title: git commit -m 'woke'
+title: git commit -m "woke"
 date: 2021-08-05T02:44:10.294Z
 author: Nathan Donolli
 summary: looking for inclusivity in the wrong places
